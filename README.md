@@ -6,6 +6,6 @@ power.sh - Sends payloads to TP-link smart plug hs100 to turn on and off based o
 Use these script with crontab
 
 
-# m h  dom mon dow   command
+`# m h  dom mon dow   command
 15 00 * * 1 /usr/local/bin/sun >/dev/null 2>&1
-* * * * * /usr/local/bin/power >/dev/null 2>&1
+* * * * * /usr/local/bin/power >/dev/null 2>&1`
